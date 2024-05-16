@@ -18,4 +18,15 @@ public class Passerotto extends Animale{
 		System.out.println("Io mangio i vermi");
 	}
 
+	@Override
+	public void vola() {
+		System.out.println("Sto Volando!!!");
+	}
+
+	@Override
+	public void nuota() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

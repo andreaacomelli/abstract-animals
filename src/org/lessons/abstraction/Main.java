@@ -27,6 +27,7 @@ public class Main {
 			passerotto.dormi();
 			passerotto.verso();
 			passerotto.mangia();
+			passerotto.vola();
 		}
 		else if (scelta.equals("aquila")) {
 			Animale aquila = new Aquila();
@@ -34,6 +35,7 @@ public class Main {
 			aquila.dormi();
 			aquila.verso();
 			aquila.mangia();
+			aquila.vola();
 		}
 		else if (scelta.equals("delfino")) {
 			Animale delfino = new Delfino();
@@ -41,6 +43,7 @@ public class Main {
 			delfino.dormi();
 			delfino.verso();
 			delfino.mangia();
+			delfino.nuota();
 		}
 		scan.close();
 	}
